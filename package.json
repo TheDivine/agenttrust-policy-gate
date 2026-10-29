@@ -1,0 +1,14 @@
+{
+  "name": "agenttrust-policy-gate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/cli.mjs examples/request.json examples/policy.json --demo-approved"
+  }
+}
